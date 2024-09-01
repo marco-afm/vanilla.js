@@ -1,0 +1,22 @@
+/* Mobile First */
+
+/* Cabeçalho Mobile */
+.cabeçalho {
+    display: flex;
+    padding: 1em;   
+
+    background: linear-gradient(to bottom right, var(--gray), var(--light-gray), var(--dark-gray));
+    border-bottom: 3px solid var(--black);
+}
+
+.cabeçalho__div1 {
+    margin: 0 auto;
+}
+
+.cabeçalho__título {
+    color: var(--black);
+    
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* Fim - Cabeçalho Mobile */
